@@ -42,6 +42,8 @@
                     munsilo ndipo mupange share app(apk) kwa anthu 20 pa whatsapp ndipo 
                     mukabweramo mupeza nkhani zabwerano!!!
                 </p>
+
+                <button onclick="shareApp()" class="menu-button">SHARE THIS APP</button>
             </div>
 
 
@@ -72,7 +74,17 @@
             </div>
         </div>
     </div>
-    <script src="../scripts/home.js"></script>
+    <script>
+        function shareApp(){
+            var wapLink = "https://files.fm/f/skgvftknxq";
+
+            var message = "Tobwanyani link ili munsimu mu download app yomwe muzitha kuphunzirako zakuchipinda zosiyana siyana komanso kuchosa nkhawa" +wapLink;
+
+            var wapurl = "https://api.whatsapp.com/send?text=" +encodeURIComponent(message);
+
+            window.open(wapurl)
+        }
+    </script>
 
 
 
