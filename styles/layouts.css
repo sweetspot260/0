@@ -1,0 +1,83 @@
+.header{
+    display: flex;
+    background-color: rgb(66, 65, 65);
+    height: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: 100;
+
+}
+.left-header-side{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2%;
+    
+}
+.right-header-side{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:20px;
+    right: 8%;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 115px;
+    padding-bottom: 200px;
+    margin-left: 4%;
+    margin-right: 4%;
+    row-gap: 3%;
+    column-gap: 4%;
+    
+}
+.menu-details{
+    display: grid;
+    justify-items: center;
+    padding-top: 8px;
+}
+.menu-childs-description{
+    display: grid;
+    justify-items: center;
+    padding: 10px;
+    padding-bottom: 50px;
+
+}
+.main-data{
+    margin-top: 120px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(66, 65, 65);
+    padding: 10px;
+    border-bottom:1px solid rgb(168, 166, 164) ;
+    box-shadow: 4px 3px 4px rgba(0,0,0 0.15);
+}
+.footer-icon{
+    width: 30px;
+    display: block;
+
+}
+.footer-icon-text{
+    margin-left: -6px;
+    color: rgb(240, 243, 247);
+}
+#porno-container{
+    padding-bottom: 500px;
+}
+#scandal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2px;
+    font-size: 50px; 
+}

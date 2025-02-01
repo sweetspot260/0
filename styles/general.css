@@ -1,0 +1,104 @@
+:root {
+    --primary-color:rgb(43, 43, 131);
+    --secondary-color:rgb(199, 199, 204);
+}
+body{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #f0f5f0,#a3a7a3);
+    padding-bottom: 10%;
+}
+h5{
+    margin: 0;
+    padding: 0; 
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: rgb(56, 73, 73);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.logoImg, .profilepic{
+    width: 50px;
+    border-radius: 50%;
+}
+.logoname{
+    margin-left: 7%;
+}
+.logoname h4{
+    text-transform: uppercase;
+    color: rgb(226, 226, 230);
+    font-size: 25px;
+    font-weight: bold;
+}
+.logoname-decoration{
+    color: rgb(252, 169, 183);
+    font-size: 28px;
+}
+.money-display{
+    margin-right: 10%;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 40%;
+    padding: 10px;
+    color: rgb(25, 21, 83);
+
+}
+.topper-indicator{
+    font-size: 15px;
+    font-weight: bold;  
+    color: rgb(142, 148, 146); 
+}
+.menu-childs-photo{
+    height: 75px;
+    border-radius: 45%;
+}
+.menu-childs{
+    background-color: rgb(188, 214, 214);
+    border: 1px solid rgb(188, 214, 214);
+    border-radius: 10px;
+    position: relative;
+}
+.menu-childs-title{
+    color: rgb(161, 15, 15);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+}
+.menu-button{
+    width: 100%;
+    height: 42px;
+    background-color:rgba(37, 62, 68, 0.685);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+  
+
+}
+.menu-button:hover{
+    background-color: rgba(63, 80, 83, 0.685);
+}
+.video-holder{
+    width: 200px;
+    height: 100px;
+}
+.story-heads{
+    color: rgb(131, 32, 32);
+    margin-left: -50%;
+}
+#story-titles{
+    margin-left: -50%;
+}

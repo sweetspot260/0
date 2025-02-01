@@ -1,0 +1,75 @@
+.login-container{
+    width: 75%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #a19191;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login-container h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(78, 72, 72);
+    font-weight: bold;
+}
+#login-form{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(78, 72, 72);
+}
+input[type="text"],input[type="tel"],input[type="file"]{
+    width: 93%;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border:1px solid #ccc
+}
+input[type="file"]{
+    color: rgb(78, 72, 72);
+}
+#user-select{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border:1px solid #ccc;
+    padding-left: 5px;
+}
+#loginBtn{
+    width: 100%;
+    height: 42px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+#loginBtn:hover{
+    background-color: #3e8341;
+}
+#loginBtn{
+    background-color: #607961;
+}
+#loginBtn1{
+    width: 100%;
+    height: 42px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+#loginBtn1:active{
+    background-color: #607961;
+}
+#loginBtn1:hover{
+    background-color: #3e8341;
+}
