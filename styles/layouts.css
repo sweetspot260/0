@@ -25,7 +25,7 @@
 }
 .main-container{
     display: grid;
-    grid-template-columns: 1fr;
+    justify-items: center;
     margin-top: 115px;
     padding-bottom: 200px;
     margin-left: 2%;
