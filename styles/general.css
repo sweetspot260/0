@@ -8,7 +8,7 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to top, #f0f5f0,#a3a7a3);
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 h5{
     margin: 0;
@@ -92,8 +92,8 @@ a{
     background-color: rgba(63, 80, 83, 0.685);
 }
 .video-holder{
-    width: 200px;
-    height: 100px;
+    width: 80%;
+    height: 200px;
 }
 .story-heads{
     color: rgb(131, 32, 32);
